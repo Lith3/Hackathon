@@ -8,8 +8,8 @@ function Accueil() {
     <main className="accueil">
       <div className="logo-container">
         <img className="logo" src={logoImage} alt="logo" />
-        <h1>AIDE UN VIOQUE</h1>
       </div>
+      <h1>AIDE UN VIOQUE</h1>
       <div className="button">
         <button
           onClick={() => {
