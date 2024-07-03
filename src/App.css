@@ -7,7 +7,14 @@
   --secondary-color: #5e72e4;
   --back-color: white;
 }
+@font-face {
+  font-family: "luckiestGuy";
+  src: url("./assets/fonts/LuckiestGuy-Regular.ttf") format("truetype");
+}
 
+h1 {
+  font-family: "luckiestGuy";
+}
 #root {
   width: 100vw;
   display: flex;
