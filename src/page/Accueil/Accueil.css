@@ -3,14 +3,16 @@
   display: flex;
   flex-direction: column;
   width: 95%;
-  height: 90%;
+  height: 90vh;
+  justify-content: space-between;
   background-color: var(--primary-color);
   border-radius: 15px;
+  box-sizing: content-box;
 }
 
 .logo {
   padding-top: 2em;
-  width: 20em;
+  width: 15em;
 }
 
 .button {
@@ -18,21 +20,22 @@
   display: flex;
   flex-direction: column;
   width: 15em;
+  gap: 1em;
+  padding-bottom: 1rem;
 }
 
 .logo-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2em;
+  gap: 1em;
 }
 h1 {
-  font-size: 5em;
+  font-size: 3em;
   text-align: center;
 }
 .button1,
 .button2 {
-  margin: 2rem;
   background-image: linear-gradient(
     92.88deg,
     #5e72e4 9.16%,
