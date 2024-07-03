@@ -1,0 +1,54 @@
+.assoContainer {
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  box-sizing: content-box;
+  width: 95%;
+  height: 95%;
+  align-items: center;
+  gap: 1em;
+  border-radius: 15px;
+  border: 1px solid;
+}
+
+.phonePicture,
+.boxMailPicture {
+  height: 5em;
+  padding: 0 2em 0 1em;
+  font-weight: bold;
+}
+p {
+  font-size: 2em;
+}
+.logoAsso {
+  height: 15em;
+  width: 15em;
+}
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  font-size: 3.5em;
+  text-align: center;
+}
+.descriptionBox {
+  padding: 0 1em 1em 1em;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.descriptionTitle {
+  font-size: 2em;
+}
+
+.description {
+  padding: 10px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 1.8em;
+}
