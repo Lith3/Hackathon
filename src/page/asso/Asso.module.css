@@ -11,19 +11,26 @@
   border: 1px solid;
 }
 
-.phonePicture,
-.boxMailPicture {
+.phonePicture {
   height: 5em;
   padding: 0 2em 0 1em;
   font-weight: bold;
 }
+
+.boxMailPicture {
+  width: 7em;
+  padding: 0 2em 0 1em;
+}
+
 p {
   font-size: 2em;
 }
+
 .logoAsso {
   height: 15em;
   width: 15em;
 }
+
 .container {
   width: 100%;
   display: flex;
@@ -34,6 +41,7 @@ p {
   font-size: 3.5em;
   text-align: center;
 }
+
 .descriptionBox {
   padding: 0 1em 1em 1em;
   height: 100%;
