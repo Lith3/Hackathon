@@ -35,7 +35,7 @@ function Asso() {
             src={boxMail}
             alt="icone de boite au lettre"
           ></img>
-          <p>{association.address}</p>
+          <p className={styles.address}>{association.address}</p>
         </div>
         <div className={styles.descriptionBox}>
           <span className={styles.descriptionTitle}>Description :</span>

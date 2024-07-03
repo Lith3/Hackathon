@@ -1,10 +1,11 @@
 .assoContainer {
+  margin-top: 15px;
   background-color: var(--primary-color);
   display: flex;
   flex-direction: column;
   box-sizing: content-box;
   width: 95%;
-  height: 95%;
+  height: calc(90vh - 15px);
   align-items: center;
   gap: 1em;
   border-radius: 15px;
@@ -40,6 +41,10 @@ p {
 .name {
   font-size: 3.5em;
   text-align: center;
+}
+
+.address {
+  width: 95%;
 }
 
 .descriptionBox {
